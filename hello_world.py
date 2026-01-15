@@ -1,6 +1,3 @@
-# import datetime to get todays date
-import datetime
-
 # taking name from user
 name = input("Enter your name: ") 
 
@@ -8,9 +5,11 @@ name = input("Enter your name: ")
 role =input("Enter Internship Role:")
 
 #display Todays date
-Today_date = datetime.date.today()
+day = 15
+month ='January'
+year =2026
 
 # for displaying the user details as name, internship name and todays date
 print("Name: ",name)
 print("Internship Name: ",role)
-print("Todays Date: ",Today_date)
+print("Todays Date: ",day,month,year)
